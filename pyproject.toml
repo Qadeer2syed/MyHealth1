@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "myhealth"
+version = "0.1.0"
+description = ""
+authors = ["shanemarvinmay <shanemarvinmay@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+keras = "^3.1.1"
+opencv-python = "^4.9.0.80"
+numpy = "^1.26.4"
+tensorflow = "^2.16.1"
+matplotlib = "^3.8.3"
+pillow = "^10.3.0"
+requests = "^2.31.0"
+tinydb = "^4.8.0"
+prettytable = "^3.10.0"
+pytest = "^8.1.1"
+black = "^24.3.0"
+ruff = "^0.3.5"
+pre-commit = "^3.7.0"
+coverage = "^7.4.4"
+typer = "^0.12.3"
+typer-cli = "^0.12.3"
+
+[tool.black]
+line-length = 120
+
+[tool.ruff]
+line-length = 120
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
